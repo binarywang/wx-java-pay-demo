@@ -27,7 +27,7 @@
         <dependency>
             <groupId>com.github.binarywang</groupId>
             <artifactId>wx-java-pay-spring-boot-starter</artifactId>
-            <version>4.0.0</version>
+            <version>4.1.0</version>
         </dependency>
     </dependencies>
 
