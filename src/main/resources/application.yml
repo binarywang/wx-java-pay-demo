@@ -3,6 +3,10 @@ wx:
     appId:
     mchId:
     mchKey:
+    # 微信支付异步通知地址：请替换为你自己的公网可访问地址
+    notifyUrl: ${WX_PAY_NOTIFY_URL:https://your-domain.com/pay/notify}
+    # 交易类型：按业务场景选择（如 JSAPI / NATIVE / APP）
+    tradeType: ${WX_PAY_TRADE_TYPE:NATIVE}
     subAppId:
     subMchId:
     keyPath:
