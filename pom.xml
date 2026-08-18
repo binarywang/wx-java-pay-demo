@@ -28,6 +28,12 @@
             <groupId>com.github.binarywang</groupId>
             <artifactId>wx-java-pay-spring-boot-starter</artifactId>
             <version>4.8.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.springfox</groupId>
+                    <artifactId>springfox-staticdocs</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 
